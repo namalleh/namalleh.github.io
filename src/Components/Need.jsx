@@ -72,7 +72,7 @@ Also known is that ChatGPT and similar lower the bar to copycats and resellers.
 
 So is there another way?
 
-[Yes!](./a-solution)
+Yes!
 `;
 
 export default function Need() {
