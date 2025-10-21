@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&family=Arvo&family=BioRhyme&family=Libre Baskerville&family=Playfair Display&family=Cinzel&family=EB Garamond&family=Caladea&family=Spectral&family=Abril Fatface&family=Jacques Francois&family=Neuton&family=Pridi&family=Aleo&family=Abhaya Libre&family=Rokkitt&family=Frank Ruhl Libre&family=Poppins&family=Roboto&family=Noto+Sans&family=Open+Sans&family=Lato:wght@300;400;700;900&family=Bebas+Neue&family=Oswald&family=Inter:wght@300;400;700;900&family=Montserrat&family=Anton&family=Anton SC&family=Quicksand&family=Amiko&family=Work Sans&family=Josefin Sans&family=Raleway&family=Mulish&family=Telex&family=Hind Madurai&family=Kanit&family=Tenor Sans&family=Varela&family=Quattrocento Sans&family=Titillium Web&family=Poiret One&family=Jost&family=Exo 2&family=Ubuntu&family=Cabin&family=Nunito&family=Rubik&family=Pacifico&family=Amatic SC&family=Dancing Script&family=Tangerine&family=Lobster Two&family=Sacramento&family=Courgette&family=Kite One&family=Amarante&family=Satisfy&family=Lilita One&family=Shantell Sans&family=Lobster&family=Aboreto&family=Titan One&family=Cookie&family=Bungee&family=Staatliches&family=Calistoga&family=Suez One&family=Caprasimo&family=Rubik Mono One&family=Silkscreen&family=Alfa Slab One&family=Orelega One&family=Audiowide&family=Red Rose&family=Kalnia&family=Imbue&family=Climate Crisis&family=Gluten&family=Madimi One&family=Anta&family=Trykker&family=Moul&family=Bevan&family=Wendy One&family=Lexend Deca&family=Vina Sans&family=Chango&family=Changa One&family=Protest Guerrilla&family=Londrina Shadow&family=Candal&family=Borel&family=RocknRoll One&family=Bungee Inline&family=Rampart One&family=Manrope&family=Yusei Magic&family=Patrick Hand SC&family=Farsan&family=Handlee&family=Lemonada&family=Patua One&family=Arsenal&family=Bakbak One&family=Belleza&family=Black Han Sans&family=Bowlby One&family=Bruno Ace SC&family=Castoro Titling&family=Contrail One&family=Dela Gothic One&family=DotGothic16&family=Fahkwang&family=Francois One&family=Gloock&family=Graduate&family=Kavoon&family=Jersey 10&family=Krona One&family=Notable&family=Pavanam&family=Phudu&family=Poetsen One&family=Poller One&family=Questrial&family=Racing Sans One&family=Rammetto One&family=Rubik Glitch&family=Shrikhand&family=Spicy Rice&family=Syncopate&family=Urbanist&family=Yeseva One&family=Zen Dots&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+
+#root {
+  color: #e7e4db;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: left;
+  font-size: medium;
+}
+
+.logo {
+  height: 10em;
+  padding: 1.5em;
+  z-index: 9000;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.root-title {
+  font-family: Zen Dots;
+  font-size: xx-large;
+  padding: 1em;
+  align-items: baseline;
+}
+
+.tagline {
+  font-family: Zen Dots;
+  font-size: large;
+  padding: 1em;
+  align-items: baseline;
+}
+
+button {
+  text-align: center;
+}
+
+.App {
+  padding: 10px;
+  width: 720em;
+}
+
+.container {
+  align-items: center;
+  background-image: linear-gradient(30deg, #0f0f3b, #0f3252, transparent);
+  background-repeat: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.menu {
+  overflow: hidden;
+}
+
+.menu a {
+  float: left;
+  display: block;
+}
+
+.textBox {
+  overflow-wrap: break-word;
+  inline-size: 720px;
+}
+
+.navBarLink {
+  font-size: large;
+  background-blend-mode: color-burn;
+  padding: 1em 1.2em;
+  margin: 5px;
+  transition: border-color 0.25s;
+}
+.navBarLink:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.navBarLink.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.mobileSplash {
+  display: none;
+}
+
+body {
+  background-image: url(./public/background.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+a {
+  width: fit-content;
+  font-weight: 500;
+  font-style: bold;
+  color: #c2c3ca;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #5f6197;
+}
+
+a {
+  text-shadow: 0.5px 0.5px #5f6197;
+  border-radius: 1px;
+  padding: 1px;
+}
+
+@media screen and (max-width: 600px) {
+  .menu a {
+    float: none;
+    width: 100%;
+  }
+
+  .navBarLink {
+    padding: 0.5em;
+    width: 100px;
+  }
+
+  .App {
+    width: 300px;
+  }
+
+  .textBox {
+    inline-size: 300px;
+  }
+
+  .desktopSplash {
+    display: none;
+  }
+  .mobileSplash {
+    display: inline;
+  }
+
+  .tagline {
+    position: absolute;
+    align-items: end;
+    z-index: 1;
+    text-shadow: 0.2px 0.2px;
+  }
+
+  body {
+    background-image: none;
+  }
+
+  .container {
+    background-image: linear-gradient(#0f0f3b, #0f3252);
+  }
+}
