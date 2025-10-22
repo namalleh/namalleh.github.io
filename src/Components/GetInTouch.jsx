@@ -9,7 +9,7 @@ export default function GetInTouch() {
         <Markdown>{description}</Markdown>
       </div>
       <div>
-        <form action="mailto:pankon.namalleh@gmail.com">
+        <form action="mailto:nathan@namalleh.com">
           <button>
             <div>Send us a mail</div>
           </button>
