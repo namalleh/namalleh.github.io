@@ -6,6 +6,11 @@ import Need from "./Components/Need";
 import GetInTouch from "./Components/GetInTouch";
 import ASolution from "./Components/ASolution";
 import icon from "./assets/IconOnly_Transparent_NoBuffer.png";
+import Pricing from "./Components/Pricing";
+import { Dashboard } from "./Components/Dashboard";
+import PricingComingSoon from "./Components/PricingComingSoon.jsx";
+import FineGrainedControl from "./Components/FineGrainedControl.jsx";
+import { FaLinkedin, FaReddit } from "react-icons/fa";
 
 function App() {
   return (
@@ -47,10 +52,16 @@ function App() {
               <Route path="/" element={<Layout />}>
                 <Route path="/" element={<Need />} />
                 <Route path="a-solution" element={<ASolution />} />
+                <Route path="pricing" element={<Pricing />} />
                 <Route path="get-in-touch" element={<GetInTouch />} />
+                {/*<Route path="dashboard" element={<Dashboard />} />*/}
+                <Route path="fine-grained-control" element={<FineGrainedControl />}/>
               </Route>
             </Routes>
           </BrowserRouter>
+          <div style={{'vertical-align': 'text-bottom', height:'200px', 'padding-top': '100px', padding:"5px"}} >
+            <a href={"https://www.linkedin.com/company/namalleh/"}><FaLinkedin/></a>
+          </div>
         </div>
       </div>
     </div>
