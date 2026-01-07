@@ -5,7 +5,7 @@ import path from 'path';
 // https://vite.dev/config/
 export default defineConfig({
   server: {
-    cors: { origin: /^https?:\/\/(?:(?:[^:]+\.)?((www\.)?namalleh.(cc|com))|www\.googletagmanager\.com|cdn\.shabbatguard\.com|q\.quora\.com|snap\.licdn\.com|px\.ads\.linkedin\.com|localhost)/ },
+    cors: { origin: /^https?:\/\/(?:(?:[^:]+\.)?((www\.)?namalleh.(cc|com))|(namalleh.github.io)|www\.googletagmanager\.com|cdn\.shabbatguard\.com|q\.quora\.com|snap\.licdn\.com|px\.ads\.linkedin\.com|localhost)/ },
   },
   publicDir: "./public",
   resolve: {
