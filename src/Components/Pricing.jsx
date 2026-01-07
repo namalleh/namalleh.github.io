@@ -2,28 +2,6 @@ import {Link} from "react-router-dom";
 import {render} from 'react-dom';
 import React from "react";
 
-function paddleInit() {
-    window.Paddle.Initialize({
-        token: 'live_7d279f61a3499fed520f7cd8c08' // replace with a client-side token
-    });
-}
-
-function makeCheckout() {
-    return (<>
-        <script src="https://cdn.paddle.com/paddle/v2/paddle.js"></script>
-        {paddleInit()}
-    </>);
-}
-
-function MakeSvg({string}) {
-    return (<>
-        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1280"
-             height="1024" viewBox="0 0 1280 1024" xml:space="preserve">
-    {string}
-    </svg>
-    </>);
-}
-
 function CallToAction({action}) {
     switch (action) {
         case "coming_soon":
