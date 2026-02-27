@@ -6,9 +6,6 @@ import Need from "./Components/Need";
 import GetInTouch from "./Components/GetInTouch";
 import ASolution from "./Components/ASolution";
 import icon from "./assets/IconOnly_Transparent_NoBuffer.png";
-import Pricing from "./Components/Pricing";
-import { Dashboard } from "./Components/Dashboard";
-import PricingComingSoon from "./Components/PricingComingSoon.jsx";
 import FineGrainedControl from "./Components/FineGrainedControl.jsx";
 import { FaLinkedin, FaReddit } from "react-icons/fa";
 

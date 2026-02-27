@@ -98,7 +98,7 @@ Every aspect of a person can be uplifted to a higher purpose.
 
 So world class research, uplifted to protect your critical assets in a way that you've never seen before.
 
-[Sign me up!](./pricing)
+[Sign me up!](https://button.solutions)
 `;
 
 
