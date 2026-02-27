@@ -44,6 +44,8 @@ function App() {
         </div>
 
         <div>
+          <div><b>Update</b>: We are now <a href="https://button.solutions">button ^ solutions</a>! Come check us out.</div>
+
           <BrowserRouter>
             <Routes>
               <Route path="/" element={<Layout />}>
@@ -54,6 +56,7 @@ function App() {
               </Route>
             </Routes>
           </BrowserRouter>
+         
           <div style={{'vertical-align': 'text-bottom', height:'200px', 'padding-top': '100px', padding:"5px"}} >
             <a href={"https://www.linkedin.com/company/namalleh/"}><FaLinkedin/></a>
           </div>
