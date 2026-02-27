@@ -12,7 +12,7 @@ export default function Layout() {
         <NavLink className="navBarLink" to="/fine-grained-control">
           Fine Grained Control
         </NavLink>
-        <NavLink className="navBarLink" to="/get-in-touch">
+        <NavLink className="navBarLink" to="https://button.solutions/contact">
           Get in touch
         </NavLink>
       </div>

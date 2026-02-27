@@ -1,9 +1,7 @@
 import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./Components/Home";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Layout from "./Components/Layout";
 import Need from "./Components/Need";
-import GetInTouch from "./Components/GetInTouch";
 import ASolution from "./Components/ASolution";
 import icon from "./assets/IconOnly_Transparent_NoBuffer.png";
 import FineGrainedControl from "./Components/FineGrainedControl.jsx";
@@ -51,7 +49,6 @@ function App() {
               <Route path="/" element={<Layout />}>
                 <Route path="/" element={<Need />} />
                 <Route path="a-solution" element={<ASolution />} />
-                <Route path="get-in-touch" element={<GetInTouch />} />
                 <Route path="fine-grained-control" element={<FineGrainedControl />}/>
               </Route>
             </Routes>
