@@ -12,12 +12,6 @@ export default function Layout() {
         <NavLink className="navBarLink" to="/fine-grained-control">
           Fine Grained Control
         </NavLink>
-        <NavLink className="navBarLink" to="/pricing">
-          Pricing
-        </NavLink>
-        {/*<NavLink className="navBarLink" to="/dashboard">*/}
-        {/*  Dashboard*/}
-        {/*</NavLink>*/}
         <NavLink className="navBarLink" to="/get-in-touch">
           Get in touch
         </NavLink>
