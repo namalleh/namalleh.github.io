@@ -1,4 +1,5 @@
 import Markdown from "react-markdown";
+import { NavLink } from "react-router-dom";
 
 const description = `
 AI and other magic wands are not the only way.
@@ -25,8 +26,6 @@ In order to block all these four types of automated information extraction, we n
 2. Has targeted, difficult to fake sensors
 3. Clear classification
 4. Actions which make sense for the category of bot, which will stop access or effectively reduce profits gained at your expense
-
-[So how do I control my bot problem?](./fine-grained-control)
 `;
 
 export default function ASolution() {
@@ -36,6 +35,9 @@ export default function ASolution() {
       <div className="textBox">
         <Markdown>{description}</Markdown>
       </div>
+       <NavLink to="/fine-grained-control">
+         So how do I control my bot problem?
+        </NavLink>
     </div>
   );
 }

@@ -1,4 +1,5 @@
 import Markdown from "react-markdown";
+import { NavLink } from "react-router-dom";
 const markdown = `Your backend apis are probably only partially protected.
 ---
 **TLDR; Your antibot is probably broken and you are losing money**
@@ -71,8 +72,6 @@ are willing to pay significant sums to extract realtime "business intelligence".
 Also known is that ChatGPT and similar lower the bar to copycats and resellers.
 
 So is there another way?
-
-[Yes!](./a-solution)
 `;
 
 export default function Need() {
@@ -81,6 +80,9 @@ export default function Need() {
       <div className="textBox">
         <Markdown>{markdown}</Markdown>
       </div>
+       <NavLink to="/a-solution">
+          Yes!
+       </NavLink>
     </div>
   );
 }
